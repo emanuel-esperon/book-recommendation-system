@@ -4,6 +4,15 @@ venv/
 env/
 ENV/
 
+# Datasets y archivos de datos pesados (evita superar el límite de Git)
+*.csv
+*.zip
+*.tar.gz
+*.parquet
+*.dat
+data/raw/
+data/processed/
+
 # Byte-compiled / optimized / DLL files
 __pycache__/
 *.py[codz]
